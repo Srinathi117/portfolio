@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>SRINATHI K | AI & Data Science Engineer Portfolio</title>
+    <meta name="title" content="SRINATHI K | AI & Data Science Engineer Portfolio">
+    <meta name="description" content="I am a final-year B.Tech student in Artificial Intelligence and Data Science with a strong interest in Machine Learning, Deep Learning, Computer Vision, Explainable AI, and AI Governance.">
+    <meta name="author" content="SRINATHI K">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SRINATHI K | Personal Portfolio">
+    <meta property="og:description" content="Final-year B.Tech student in Artificial Intelligence and Data Science @ Dr. MCET">
+    <meta property="og:image" content="profile.jpg">
+
+    <!-- Google Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Glowing Ambient Orbs Background -->
+    <div class="bg-ambient">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <!-- App Container -->
+    <div class="app-container">
+        
+        <!-- Sticky Navigation Bar -->
+        <header>
+            <nav class="navbar" id="navbar">
+                <a href="#hero" class="nav-brand">
+                    <span>SRINATHI K</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#internship" class="nav-link">Internship</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn-icon" id="themeToggleBtn" aria-label="Toggle Theme">
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+                    <a href="Srinathi_K_Resume.pdf" download="Srinathi_K_Resume.pdf" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-download"></i> Resume PDF
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- 1. HOME SECTION -->
+            <section id="hero" class="hero-section">
+                <div class="hero-grid">
+                    <!-- CIRCLE PROFILE PHOTO AVATAR -->
+                    <div class="hero-profile-container">
+                        <div class="hero-avatar-frame">
+                            <img src="profile.jpg" alt="SRINATHI K" class="hero-avatar-img">
+                        </div>
+                        <div class="hero-badge">
+                            <div class="pulse-dot"></div>
+                            <span style="font-size: 0.85rem; font-weight: 600;">Open for Opportunities</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-content">
+                        <h1>Hello, I'm <span class="gradient-text">SRINATHI K</span></h1>
+                        <div class="hero-subtitle-line">
+                            <span id="typewriterText"></span>
+                        </div>
+                        <p class="hero-bio">
+                            I am a final-year B.Tech student in Artificial Intelligence and Data Science with a strong interest in Machine Learning, Deep Learning, Computer Vision, Explainable AI, and AI Governance. Through internships and academic projects, I have gained hands-on experience in developing intelligent systems using Python, TensorFlow, OpenCV, and Scikit-learn. My academic journey and practical experience have enabled me to build AI-driven applications that solve real-world problems through data-driven solutions. I am passionate about developing innovative AI technologies while continuously enhancing my technical expertise and problem-solving skills.
+                        </p>
+                        
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-primary">
+                                <i class="fa-solid fa-rocket"></i> View Projects
+                            </a>
+                            <a href="Srinathi_K_Resume.pdf" download="Srinathi_K_Resume.pdf" class="btn btn-secondary">
+                                <i class="fa-solid fa-download"></i> Download Resume PDF
+                            </a>
+                            <a href="#contact" class="btn btn-secondary">
+                                <i class="fa-solid fa-envelope"></i> Contact Me
+                            </a>
+                        </div>
+
+                        <!-- HERO STATS CARDS -->
+                        <div class="hero-stats-row">
+                            <div class="stat-box">
+                                <div class="stat-number">03+</div>
+                                <div class="stat-label">Projects</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">03</div>
+                                <div class="stat-label">Internships</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Certificates</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">2027</div>
+                                <div class="stat-label">Graduation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. ABOUT SECTION -->
+            <section id="about">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Professional Background</h2>
+                </div>
+                
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 24px; padding: 2.5rem; backdrop-filter: blur(12px);">
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-primary); margin-bottom: 2rem;">
+                        I am a final-year B.Tech student in Artificial Intelligence and Data Science with a strong interest in Machine Learning, Deep Learning, Computer Vision, Explainable AI, and AI Governance. Through internships and academic projects, I have gained hands-on experience in developing intelligent systems using Python, TensorFlow, OpenCV, and Scikit-learn. My academic journey and practical experience have enabled me to build AI-driven applications that solve real-world problems through data-driven solutions. I am passionate about developing innovative AI technologies while continuously enhancing my technical expertise and problem-solving skills.
+                    </p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+                        <div>
+                            <span style="color: var(--text-muted); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; display: block; margin-bottom: 0.3rem;">INSTITUTION</span>
+                            <span style="font-weight: 700; color: var(--text-primary); font-size: 0.95rem;">Dr. Mahalingam College of Engineering and Technology</span>
+                        </div>
+                        <div>
+                            <span style="color: var(--text-muted); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; display: block; margin-bottom: 0.3rem;">DEGREE</span>
+                            <span style="font-weight: 700; color: var(--text-primary); font-size: 0.95rem;">Bachelor of Technology in Artificial Intelligence & Data Science</span>
+                        </div>
+                        <div>
+                            <span style="color: var(--text-muted); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; display: block; margin-bottom: 0.3rem;">EXPECTED GRADUATION</span>
+                            <span style="font-weight: 700; color: var(--accent-cyan); font-size: 0.95rem;">May 2027</span>
+                        </div>
+                        <div>
+                            <span style="color: var(--text-muted); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; display: block; margin-bottom: 0.3rem;">CGPA</span>
+                            <span style="font-weight: 800; color: var(--accent-emerald); font-size: 1.05rem;">8.2 / 10.0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. SKILLS SECTION -->
+            <section id="skills">
+                <div class="section-header">
+                    <span class="section-tag">Technical Expertise</span>
+                    <h2 class="section-title">Skills</h2>
+                    <p class="section-subtitle">Categorized skills presented with technical icons and dedicated category cards.</p>
+                </div>
+
+                <!-- 1. Programming Languages -->
+                <div class="skills-category-card">
+                    <div class="skills-category-header">
+                        <div class="category-icon-badge"><i class="fa-solid fa-code"></i></div>
+                        <h3 class="category-title">Programming Languages</h3>
+                    </div>
+                    <div class="skills-item-grid">
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-python"></i></div>
+                            <span class="skill-name-label">Python</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-java"></i></div>
+                            <span class="skill-name-label">Java</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-c"></i></div>
+                            <span class="skill-name-label">C++</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-database"></i></div>
+                            <span class="skill-name-label">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Machine Learning & AI -->
+                <div class="skills-category-card">
+                    <div class="skills-category-header">
+                        <div class="category-icon-badge"><i class="fa-solid fa-brain"></i></div>
+                        <h3 class="category-title">Machine Learning & AI</h3>
+                    </div>
+                    <div class="skills-item-grid">
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-cubes"></i></div>
+                            <span class="skill-name-label">Scikit-Learn</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-microchip"></i></div>
+                            <span class="skill-name-label">TensorFlow</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-layer-group"></i></div>
+                            <span class="skill-name-label">Keras</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-network-wired"></i></div>
+                            <span class="skill-name-label">Deep Learning</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-comments"></i></div>
+                            <span class="skill-name-label">NLP</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-eye"></i></div>
+                            <span class="skill-name-label">Computer Vision</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-file-contract"></i></div>
+                            <span class="skill-name-label">AI Governance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Data Analytics -->
+                <div class="skills-category-card">
+                    <div class="skills-category-header">
+                        <div class="category-icon-badge"><i class="fa-solid fa-chart-pie"></i></div>
+                        <h3 class="category-title">Data Analytics</h3>
+                    </div>
+                    <div class="skills-item-grid">
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-file-excel"></i></div>
+                            <span class="skill-name-label">Excel</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-table"></i></div>
+                            <span class="skill-name-label">Pandas</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-calculator"></i></div>
+                            <span class="skill-name-label">NumPy</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-chart-line"></i></div>
+                            <span class="skill-name-label">Matplotlib</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-chart-column"></i></div>
+                            <span class="skill-name-label">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Web Development -->
+                <div class="skills-category-card">
+                    <div class="skills-category-header">
+                        <div class="category-icon-badge"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3 class="category-title">Web Development</h3>
+                    </div>
+                    <div class="skills-item-grid">
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-react"></i></div>
+                            <span class="skill-name-label">React</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-globe"></i></div>
+                            <span class="skill-name-label">Next.js</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-wind"></i></div>
+                            <span class="skill-name-label">Tailwind CSS</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-js"></i></div>
+                            <span class="skill-name-label">JavaScript</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-node"></i></div>
+                            <span class="skill-name-label">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Tools & Platforms -->
+                <div class="skills-category-card">
+                    <div class="skills-category-header">
+                        <div class="category-icon-badge"><i class="fa-solid fa-wrench"></i></div>
+                        <h3 class="category-title">Tools & Platforms</h3>
+                    </div>
+                    <div class="skills-item-grid">
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-git-alt"></i></div>
+                            <span class="skill-name-label">Git</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-github"></i></div>
+                            <span class="skill-name-label">GitHub</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-docker"></i></div>
+                            <span class="skill-name-label">Docker</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-brands fa-figma"></i></div>
+                            <span class="skill-name-label">Figma</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-cloud"></i></div>
+                            <span class="skill-name-label">Google Colab</span>
+                        </div>
+                        <div class="skill-square-card">
+                            <div class="skill-icon-wrap"><i class="fa-solid fa-server"></i></div>
+                            <span class="skill-name-label">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. PROJECTS SECTION -->
+            <section id="projects">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">Real-world systems across Deep Learning, Computer Vision, and Web Platforms.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Brain Tumor Detection (IEEE Paper Highlight) -->
+                    <div class="project-card">
+                        <div class="project-header-bg" style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);">
+                            <span class="project-cat-badge">IEEE Published Paper</span>
+                            <h3 style="color: white; font-size: 1.4rem;">Brain Tumor Detection</h3>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-metric" style="background: rgba(37,99,235,0.15); color: var(--accent-cyan); border-color: rgba(56,189,248,0.3);"><i class="fa-solid fa-scroll"></i> IEEE Conference Paper (ICSES 2026)</span>
+                            <p class="project-desc">
+                                Developed an automated brain tumor classification system using EfficientNetB3 and Optimization with Genetic & Heuristic Algorithms (~98% accuracy). Published & presented research paper entitled <b>"Brain Tumour Detection using Optimization with Genetic and Heuristic Algorithms"</b> at the IEEE Technical sponsored 5th International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES 2026).
+                            </p>
+                            <div class="project-tech">
+                                <span class="project-tech-tag">EfficientNetB3</span>
+                                <span class="project-tech-tag">Genetic Algorithms</span>
+                                <span class="project-tech-tag">TensorFlow</span>
+                                <span class="project-tech-tag">Python</span>
+                                <span class="project-tech-tag">OpenCV</span>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 0.6rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-regular fa-calendar"></i> Jan 2026</span>
+                                    <a href="https://github.com/Srinathi117" target="_blank" style="font-size: 0.85rem; font-weight: 600; color: var(--accent-blue);">GitHub Repo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                                <a href="certificates/cert_ieee_conference.png" target="_blank" class="view-cert-btn" style="background: var(--gradient-primary); font-size: 0.85rem; padding: 0.6rem;">
+                                    <i class="fa-solid fa-file-certificate"></i> View IEEE Conference Certificate
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-header-bg" style="background: linear-gradient(135deg, #4c1d95 0%, #8b5cf6 100%);">
+                            <span class="project-cat-badge">Computer Vision</span>
+                            <h3 style="color: white; font-size: 1.4rem;">AI-Based Controlled Temple Run Game</h3>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-metric"><i class="fa-solid fa-gamepad"></i> Real-Time Pose Gesture Control</span>
+                            <p class="project-desc">
+                                Implemented a motion-controlled Temple Run game using TensorFlow Lite MoveNet, OpenCV, and PyAutoGUI for real-time Pose based navigation via webcam.
+                            </p>
+                            <div class="project-tech">
+                                <span class="project-tech-tag">TFLite MoveNet</span>
+                                <span class="project-tech-tag">OpenCV</span>
+                                <span class="project-tech-tag">PyAutoGUI</span>
+                                <span class="project-tech-tag">Python</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                                <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-regular fa-calendar"></i> April 2025 – May 2025</span>
+                                <a href="https://github.com/Srinathi117" target="_blank" class="btn btn-secondary btn-sm">GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-header-bg" style="background: linear-gradient(135deg, #065f46 0%, #10b981 100%);">
+                            <span class="project-cat-badge">Full Stack Web</span>
+                            <h3 style="color: white; font-size: 1.4rem;">TekLearn E-Learning Portal</h3>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-metric"><i class="fa-solid fa-globe"></i> E-Learning & Resource Sharing</span>
+                            <p class="project-desc">
+                                Designed and developed a responsive web-based e-learning platform using HTML, CSS, JavaScript and MySQL to enable efficient online resource sharing and user data management.
+                            </p>
+                            <div class="project-tech">
+                                <span class="project-tech-tag">HTML</span>
+                                <span class="project-tech-tag">CSS</span>
+                                <span class="project-tech-tag">JavaScript</span>
+                                <span class="project-tech-tag">MySQL</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                                <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-regular fa-calendar"></i> Oct 2024 – Jan 2025</span>
+                                <a href="https://github.com/Srinathi117" target="_blank" class="btn btn-secondary btn-sm">GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. EDUCATION SECTION -->
+            <section id="education">
+                <div class="section-header">
+                    <span class="section-tag">Academic Qualifications</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            
+                            <h3 class="timeline-role">Bachelor of Technology in Artificial Intelligence and Data Science</h3>
+                            <div class="timeline-org">Dr. Mahalingam College of Engineering and Technology, Pollachi</div>
+                            <p style="color: var(--accent-cyan); font-weight: 700; font-size: 1.1rem; margin-top: 0.5rem;">CGPA: 8.2 / 10.0</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">March 2023</div>
+                            <h3 class="timeline-role">Higher Secondary School Certificate (HSC)</h3>
+                            <div class="timeline-org">Forest Hill Academy Matriculation Higher Secondary School, Vettaikaranpudur</div>
+                            <p style="color: var(--text-secondary); font-weight: 600; margin-top: 0.25rem;">Score: 78.6%</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">April 2021</div>
+                            <h3 class="timeline-role">Secondary School Leaving Certificate (SSLC)</h3>
+                            <div class="timeline-org">Forest Hill Academy Matriculation Higher Secondary School, Vettaikaranpudur</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. INTERNSHIP SECTION (3 INTERNSHIPS WITH EMBEDDED CERTIFICATE HEADERS) -->
+            <section id="internship">
+                <div class="section-header">
+                    <span class="section-tag">Industry Experience</span>
+                    <h2 class="section-title">Internships</h2>
+                </div>
+
+                <div class="cert-card-grid">
+                    <!-- Internship 1: IIIT Kottayam Machine Learning Intern -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_iiit_kottayam.png" alt="IIIT Kottayam Internship Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">05/05/2025 - 28/06/2025</span>
+                            <h3 style="font-size: 1.25rem; margin-bottom: 0.3rem;">IIIT Kottayam Machine Learning Intern</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">IIIT Kottayam (Cert No. 050/iINT/S/2025)</p>
+                            <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.25rem;">Title: <i>"Text Classification of SMS Messages: Spam vs Ham"</i> (8 weeks internship).</p>
+                            <a href="certificates/cert_iiit_kottayam.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-award"></i> View Official IIIT Kottayam Certificate
+                            </a>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Internship 2: CodeClause Data Science Intern -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_codeclause.png" alt="CodeClause Internship Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">01/01/2025 - 01/02/2025</span>
+                            <h3 style="font-size: 1.25rem; margin-bottom: 0.3rem;">CodeClause Data Science Intern</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">Sudaku CodeClause Pvt Ltd (ID: CC-CL95700)</p>
+                            <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.25rem;">Developed real-time Machine Learning prediction applications using Flask and Streamlit.</p>
+                            <a href="certificates/cert_codeclause.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-award"></i> View Official CodeClause Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Internship 3: CoderOne Data Science & Analytics Intern -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_coderone.png" alt="CoderOne Internship Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">20/07/2024 - 20/09/2024</span>
+                            <h3 style="font-size: 1.25rem; margin-bottom: 0.3rem;">CoderOne Data Science & Analytics Intern</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">CoderOne (MSME, Govt. of India)</p>
+                            <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.25rem;">Successfully completed Data Science & Analytics Course / Internship at CoderOne.</p>
+                            <a href="certificates/cert_coderone.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-award"></i> View Official CoderOne Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </section>
+
+            <!-- 7. CERTIFICATIONS & RESEARCH PUBLICATIONS SECTION (ALL CERTIFICATES WITH EMBEDDED PREVIEWS) -->
+            <section id="certifications">
+                <div class="section-header">
+                    <span class="section-tag">Credentials & Publications</span>
+                    <h2 class="section-title">Certifications & Research Papers</h2>
+                </div>
+
+                <div class="cert-card-grid">
+                    <!-- Certificate 1: IEEE Conference Paper Certificate -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_ieee_conference.png" alt="IEEE Conference Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill" style="background: rgba(37,99,235,0.15); color: var(--accent-blue);">IEEE ICSES 2026</span>
+                            <h3 style="font-size: 1.15rem; margin-bottom: 0.3rem;">IEEE Conference Paper Certificate</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem;">IEEE Madras Section | St. Joseph's Inst. of Tech</p>
+                            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">Presented paper: <i>"Brain Tumour Detection using Optimization with Genetic and Heuristic Algorithms"</i>.</p>
+                            <a href="certificates/cert_ieee_conference.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-eye"></i> View IEEE Paper Certificate
+                            </a>
+                        </div>
+                    </div>
+
+            
+                    
+
+                    <!-- Certificate 5: Dr. MCET GenAI with LLM Workshop Certificate -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_genai_llm.png" alt="Dr. MCET GenAI Workshop Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">Oct 2025</span>
+                            <h3 style="font-size: 1.15rem; margin-bottom: 0.3rem;">GenAI with LLM Workshop Certificate</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem;">Dr. MCET Dept. of AI & DS / IIC</p>
+                            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">Two Days Workshop Certificate on "GenAI with LLM" (11-13 Oct 2025).</p>
+                            <a href="certificates/cert_genai_llm.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-eye"></i> View GenAI Workshop Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 6: Dr. MCET Microsoft PowerBI Workshop Certificate -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_powerbi.png" alt="Dr. MCET PowerBI Workshop Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">August 2024</span>
+                            <h3 style="font-size: 1.15rem; margin-bottom: 0.3rem;">AI - Microsoft PowerBI Workshop Certificate</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem;">Dr. MCET Dept. of AI & DS</p>
+                            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">Two Days Workshop Certificate on "Artificial Intelligence - Microsoft PowerBI".</p>
+                            <a href="certificates/cert_powerbi.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-eye"></i> View PowerBI Workshop Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 7: NPTEL Machine Learning Certificate -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_nptel_ml.png" alt="NPTEL Machine Learning Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">Jul-Oct 2024</span>
+                            <h3 style="font-size: 1.15rem; margin-bottom: 0.3rem;">NPTEL Machine Learning Certificate</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem;">IIT Madras / SWAYAM (Score: 52%)</p>
+                            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">12-week NPTEL course certified in Machine Learning fundamentals.</p>
+                            <a href="certificates/cert_nptel_ml.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-eye"></i> View NPTEL ML Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 8: NPTEL Deep Learning Certificate -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_nptel_deep_learning.png" alt="NPTEL Deep Learning Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">Jan-Apr 2024</span>
+                            <h3 style="font-size: 1.15rem; margin-bottom: 0.3rem;">NPTEL Deep Learning Certificate</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem;">IIT Kharagpur / SWAYAM (Score: 46%)</p>
+                            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">12-week NPTEL course certified in Neural Networks and Deep Learning.</p>
+                            <a href="certificates/cert_nptel_deep_learning.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-eye"></i> View NPTEL DL Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 9: Infosys AI Certificate -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates/cert_infosys_ai.png" alt="Infosys AI Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">August 2024</span>
+                            <h3 style="font-size: 1.15rem; margin-bottom: 0.3rem;">Infosys AI Certificate</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem;">Infosys Limited</p>
+                            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">Industry course completion certificate in Artificial Intelligence.</p>
+                            <a href="certificates/cert_infosys_ai.png" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-eye"></i> View Infosys Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 10: ADPP Certificate -->
+                    <div class="cert-card">
+                        <div class="cert-card-header">
+                            <img src="certificates\cert_adpp.jpg" alt="Advanced Diploma in Python Certificate" class="cert-card-img">
+                        </div>
+                        <div class="cert-card-body">
+                            <span class="year-pill">Apr-Aug 2023</span>
+                            <h3 style="font-size: 1.15rem; margin-bottom: 0.3rem;">Advanced Diploma in Python (ADPP) Certificate</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem;">CSC Software College (Grade A)</p>
+                            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">Advanced Diploma covering C Language, OOPS using C++, and Python.</p>
+                            <a href="certificates\cert_adpp.jpg" target="_blank" class="view-cert-btn">
+                                <i class="fa-solid fa-eye"></i> View ADPP Diploma Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 8. CONTACT SECTION -->
+            <section id="contact">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Contact & Social Links</h2>
+                    <p class="section-subtitle">Click below to connect directly via GitHub, LinkedIn, or Email.</p>
+                </div>
+
+                <div class="contact-card">
+                    <div>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Connect With Me</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Direct links to my social profiles and contact channels:</p>
+                        
+                        <div class="contact-info-list">
+                            <!-- GitHub Link -->
+                            <a href="https://github.com/Srinathi117" target="_blank" class="contact-item" style="text-decoration: none; padding: 0.85rem 1rem; background: var(--bg-item-card); border: 1px solid var(--border-color); border-radius: 14px; transition: all 0.25s ease;">
+                                <div class="contact-icon" style="background: rgba(255,255,255,0.08); color: var(--text-primary);"><i class="fa-brands fa-github" style="font-size: 1.4rem;"></i></div>
+                                <div>
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; letter-spacing: 0.5px;">GITHUB PROFILE</div>
+                                    <span style="font-weight: 700; color: var(--accent-blue);">github.com/Srinathi117 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i></span>
+                                </div>
+                            </a>
+
+                            <!-- LinkedIn Link -->
+                            <a href="https://linkedin.com/in/srinathi-k-739236306" target="_blank" class="contact-item" style="text-decoration: none; padding: 0.85rem 1rem; background: var(--bg-item-card); border: 1px solid var(--border-color); border-radius: 14px; transition: all 0.25s ease;">
+                                <div class="contact-icon" style="background: rgba(14,118,168,0.15); color: #0e76a8;"><i class="fa-brands fa-linkedin" style="font-size: 1.4rem;"></i></div>
+                                <div>
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; letter-spacing: 0.5px;">LINKEDIN PROFILE</div>
+                                    <span style="font-weight: 700; color: var(--accent-blue);">srinathi-k-739236306 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i></span>
+                                </div>
+                            </a>
+
+                            <!-- Email Link -->
+                            <a href="mailto:srinathi486@gmail.com" class="contact-item" style="text-decoration: none; padding: 0.85rem 1rem; background: var(--bg-item-card); border: 1px solid var(--border-color); border-radius: 14px; transition: all 0.25s ease;">
+                                <div class="contact-icon" style="background: rgba(239,68,68,0.15); color: #ef4444;"><i class="fa-solid fa-envelope" style="font-size: 1.4rem;"></i></div>
+                                <div>
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; letter-spacing: 0.5px;">DIRECT EMAIL</div>
+                                    <span style="font-weight: 700; color: var(--accent-blue);">srinathi486@gmail.com <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <h4 style="font-size: 1.2rem; margin-bottom: 0.5rem;">Send a Direct Message</h4>
+                        <div class="form-group">
+                            <label style="font-size: 0.85rem; font-weight: 600; margin-bottom: 0.3rem; display: block;">Your Name</label>
+                            <input type="text" id="contactName" placeholder="e.g. Hiring Manager / Recruiter" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.85rem; font-weight: 600; margin-bottom: 0.3rem; display: block;">Your Email</label>
+                            <input type="email" id="contactEmail" placeholder="e.g. recruiter@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="font-size: 0.85rem; font-weight: 600; margin-bottom: 0.3rem; display: block;">Message</label>
+                            <textarea id="contactMessage" rows="4" placeholder="Hello SRINATHI K, I saw your portfolio and would like to connect..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                        <div id="contactStatus" style="display: none; font-size: 0.85rem; margin-top: 0.5rem;"></div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2026 SRINATHI K. All rights reserved. Aspiring AI & Data Science Engineer.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript Controller -->
+    <script src="script.js"></script>
+</body>
+</html>
